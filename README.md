@@ -12,13 +12,6 @@ A user-friendly, interactive command-line tool to easily download machine learni
 ---
 
 ### 效果演示 (Demo)
-
-![Demo GIF](https://your-image-host.com/demo.gif)
-
-> _建议：你可以使用 `asciinema` 或其他工具录制一个终端操作的 gif，然后上传到图床，替换上面的链接，这会非常吸引人。_
-
-如果暂时没有动图，可以用下面的代码块作为演示：
-
 ```bash
 (base) archccb% model-downloader
 
