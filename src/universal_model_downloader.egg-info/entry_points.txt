@@ -1,0 +1,2 @@
+[console_scripts]
+model-downloader = model_downloader_pkg.main:main

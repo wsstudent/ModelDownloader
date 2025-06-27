@@ -1,0 +1,28 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "universal-model-downloader"
+version = "0.1.0"
+authors = [{ name = "Your Name", email = "your.email@example.com" }]
+description = "一个通用的交互式模型下载工具，支持 ModelScope 和 Hugging Face。"
+readme = "README.md" # 可选，如果你有说明文件
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Utilities",
+]
+# 核心：列出你的脚本依赖的库
+dependencies = ["huggingface-hub>=0.20.0", "modelscope>=1.9.0"]
+
+# 核心：定义命令行入口点
+# 'model-downloader' 是用户在终端输入命令
+# 'model_downloader_pkg.main:main' 指向 src/model_downloader_pkg/main.py 文件中的 main 函数
+[project.scripts]
+model-downloader = "model_downloader_pkg.main:main"

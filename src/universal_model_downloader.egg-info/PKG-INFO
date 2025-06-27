@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: universal-model-downloader
+Version: 0.1.0
+Summary: 一个通用的交互式模型下载工具，支持 ModelScope 和 Hugging Face。
+Author-email: Your Name <your.email@example.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: huggingface-hub>=0.20.0
+Requires-Dist: modelscope>=1.9.0

@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/model_downloader_pkg/__init__.py
+src/model_downloader_pkg/main.py
+src/universal_model_downloader.egg-info/PKG-INFO
+src/universal_model_downloader.egg-info/SOURCES.txt
+src/universal_model_downloader.egg-info/dependency_links.txt
+src/universal_model_downloader.egg-info/entry_points.txt
+src/universal_model_downloader.egg-info/requires.txt
+src/universal_model_downloader.egg-info/top_level.txt
