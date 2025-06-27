@@ -56,13 +56,13 @@ A user-friendly, interactive command-line tool to easily download machine learni
 **方法一: 使用 uv (强烈推荐)**
 
 ```bash
-uv tool install --git [https://github.com/](https://github.com/)wsstudent/ModelDownloader.git
+uv tool install git+https://github.com/wsstudent/ModelDownloader.git
 ```
 
 **方法二: 使用 pipx**
 
 ```bash
-pipx install git+[https://github.com/](https://github.com/)wsstudent/ModelDownloader.git
+pipx install git+https://github.com/wsstudent/ModelDownloader.git
 
 ```
 
