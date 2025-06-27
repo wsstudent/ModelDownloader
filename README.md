@@ -56,13 +56,14 @@ A user-friendly, interactive command-line tool to easily download machine learni
 **方法一: 使用 uv (强烈推荐)**
 
 ```bash
-uv tool install --git [https://github.com/](https://github.com/)<your-username>/<your-repo-name>.git
+uv tool install --git [https://github.com/](https://github.com/)wsstudent/ModelDownloader.git
 ```
 
 **方法二: 使用 pipx**
 
 ```bash
-pipx install git+[https://github.com/](https://github.com/)<your-username>/<your-repo-name>.git
+pipx install git+[https://github.com/](https://github.com/)wsstudent/ModelDownloader.git
+
 ```
 
 ### 🚀 如何使用 (Usage)
@@ -79,14 +80,14 @@ model-downloader
 
 如果你想对这个项目进行二次开发或贡献代码，请遵循以下步骤：
 
-1.  **克隆仓库 (Clone the repository)**
+1. **克隆仓库 (Clone the repository)**
 
     ```bash
     git clone [https://github.com/](https://github.com/)<your-username>/<your-repo-name>.git
     cd <your-repo-name>
     ```
 
-2.  **创建虚拟环境并安装依赖 (Create venv and sync dependencies)**
+2. **创建虚拟环境并安装依赖 (Create venv and sync dependencies)**
     我们推荐使用 `uv` 来管理开发环境。
 
     ```bash
@@ -100,7 +101,8 @@ model-downloader
     uv sync
     ```
 
-3.  **在开发模式下运行 (Run in development mode)**
+3. **在开发模式下运行 (Run in development mode)**
+
     ```bash
     uv run model-downloader
     ```
@@ -109,11 +111,11 @@ model-downloader
 
 欢迎任何形式的贡献！无论是提交 issue、请求新功能，还是提交 Pull Request。
 
-1.  Fork 本仓库
-2.  创建你的新分支 (`git checkout -b feature/AmazingFeature`)
-3.  提交你的更改 (`git commit -m 'Add some AmazingFeature'`)
-4.  将你的分支推送到远程 (`git push origin feature/AmazingFeature`)
-5.  创建一个 Pull Request
+1. Fork 本仓库
+2. 创建你的新分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交你的更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 将你的分支推送到远程 (`git push origin feature/AmazingFeature`)
+5. 创建一个 Pull Request
 
 ### 📄 许可证 (License)
 
