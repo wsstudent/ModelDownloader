@@ -13,7 +13,7 @@ A user-friendly, interactive command-line tool to easily download machine learni
 
 ### 效果演示 (Demo)
 ```bash
-(base) archccb% model-downloader
+(base) arch% model-downloader
 
 ============================================================
 🚀 通用交互式模型下载工具 (Universal Model Downloader)
