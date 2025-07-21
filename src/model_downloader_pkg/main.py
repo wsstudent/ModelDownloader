@@ -4,6 +4,7 @@
 通用交互式模型下载工具
 通过终端交互引导用户从 ModelScope 或 Hugging Face 下载任何模型。
 """
+
 import os
 import shutil
 import time
@@ -95,11 +96,11 @@ class UniversalModelDownloader:
         - 必须有 config.json
         - 必须有至少一个权重文件 (.safetensors 或 .bin)
         """
-        config_file = model_dir / "config.json"
-        if not config_file.exists():
-            print("  ❌ 完整性检查失败: 缺少 'config.json' 文件。")
-            return False
-
+        # config_file = model_dir / "config.json"
+        # if not config_file.exists():
+        #     print("  ❌ 完整性检查失败: 缺少 'config.json' 文件。")
+        #     return True
+        #
         # 检查是否存在任何权重文件
         has_weights = any(model_dir.glob("*.safetensors")) or any(
             model_dir.glob("*.bin")

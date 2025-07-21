@@ -1,3 +1,4 @@
+LICENSE
 README.md
 pyproject.toml
 src/model_downloader_pkg/__init__.py
