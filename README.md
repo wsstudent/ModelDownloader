@@ -12,34 +12,33 @@ A user-friendly, interactive command-line tool to easily download machine learni
 ---
 
 ### 效果演示 (Demo)
-
-![Demo GIF](https://your-image-host.com/demo.gif)
-
-> _建议：你可以使用 `asciinema` 或其他工具录制一个终端操作的 gif，然后上传到图床，替换上面的链接，这会非常吸引人。_
-
-如果暂时没有动图，可以用下面的代码块作为演示：
-
 ```bash
-(base) archccb% model-downloader
-
 ============================================================
-🚀 通用交互式模型下载工具 (Universal Model Downloader)
+🚀 通用交互式模型下载工具
 ============================================================
 该工具将帮助您从 ModelScope 或 Hugging Face 下载任何模型。
 ============================================================
 
-? 请选择要从哪个平台下载模型 (Use arrow keys)
-❯ Hugging Face
-  ModelScope (魔搭)
-
-? 请输入 Hugging Face 上的模型 ID (例如: deepseek-ai/deepseek-coder-7b-instruct-v1.5): meta-llama/Llama-2-7b-chat-hf
-
 📁 设置模型存储根目录
 ------------------------------
-请输入模型存储目录 (按 Enter 使用默认路径: ./models): /data/models
+请输入模型存储目录 (按 Enter 使用默认路径: /data/models): 
+✅ 模型将存储在: /data/models
 
-✅ 任务完成! 模型已成功下载到:
-/data/models/meta-llama/Llama-2-7b-chat-hf
+📝 请输入您想下载的模型信息
+------------------------------
+请输入 ModelScope 或 Hugging Face 的模型 ID
+(例如: Qwen/Qwen2-7B-Instruct): OpenBMB/MiniCPM4-8B
+✅ 准备下载模型: OpenBMB/MiniCPM4-8B
+✅ 将保存到本地文件夹: OpenBMB_MiniCPM4-8B
+
+📥 选择下载库和镜像源
+------------------------------
+1. ModelScope (国内推荐，下载 ModelScope 模型)
+2. Hugging Face 官方 (下载 Hugging Face 模型)
+3. Hugging Face 镜像 (hf-mirror.com，国内推荐)
+4. 自动选择 (先尝试 ModelScope，失败后尝试 Hugging Face 镜像)
+
+请选择下载源 (1-4): 
 ```
 
 ### ✨ 主要特性 (Features)
@@ -56,13 +55,13 @@ A user-friendly, interactive command-line tool to easily download machine learni
 **方法一: 使用 uv (强烈推荐)**
 
 ```bash
-uv tool install --git [https://github.com/](https://github.com/)wsstudent/ModelDownloader.git
+uv tool install git+https://github.com/wsstudent/ModelDownloader.git
 ```
 
 **方法二: 使用 pipx**
 
 ```bash
-pipx install git+[https://github.com/](https://github.com/)wsstudent/ModelDownloader.git
+pipx install git+https://github.com/wsstudent/ModelDownloader.git
 
 ```
 
